@@ -7,7 +7,8 @@
   z-index: 10;
   // position: sticky;
   // top: 0;
-  background-color: rgba(82, 82, 82, 0.151);
+  // background-color: rgba(82, 82, 82, 0.151);
+  background-color: #EE7070;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -21,25 +22,25 @@
 }
 
 .navbar-text {
-  font-family: "Wildflower", "sans-serif";
+  font-family: Arial,sans-serif;
   display: inline;
   text-shadow: 2px 2px 16px rgb(0, 0, 0);
-  font-size: 22px;
-  color: rgb(255, 255, 255);
+  font-size: 20px;
+  color: black;
   text-shadow: 3px 3px 10px black;
 }
 
 .navbar-text:hover, {
-  color: rgba(146, 42, 16, 0.931);
+  color: rgba(255, 255, 255, 0.829);
   text-shadow: 3px 3px 16px rgb(255, 255, 255);
 }
 
 .navbar i {
   font-size: 24px;
-  color: rgba(255, 255, 255, 0.829);
+  color: white;
   text-shadow: 2px 3px 16px rgba(77, 77, 77, 0.945);
   margin-left: 10px;
-  
+
 }
 
 .navbar i:hover{

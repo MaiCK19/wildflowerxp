@@ -7,7 +7,7 @@ User.destroy_all
 user1 = User.create!(first_name: "Elsa", last_name: "sanche", email: "c@a.aaa", password: "password")
 user2 = User.create!(first_name: "Juanita", last_name: "doe", email: "d@a.aaa", password: "password")
 
-file1 = URI.open('https://euroamerican.dk/photo/mountain-show.jpg')
+file1 = URI.open('https://images.unsplash.com/photo-1617737507564-84f28854c710?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80')
 exp1 = Experience.new(
 title: "Snowed mountains hiking",
 description: "Hiking in the winter is a great way to stay active and healthy during the darker months when you might feel inclined to hunker down in front of the tv.",

@@ -1,4 +1,4 @@
-<div class="row col-12 col-md-12">
+<!-- <div class="row col-12 col-md-12">
 
   <div class="container col-12 col-md-6 mr-0">
     <div class="flat-form">
@@ -15,3 +15,57 @@
   </div>
 
 </div>
+ -->
+
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+     #parents {
+      height: 500px;
+      background: #f4f1ec;
+     /* position: relative;*/
+     }
+
+     .red {
+        width: 150px;
+        height: 150px;
+        background: blue;
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+
+     }
+
+     .blue {
+      width: 120px;
+      height: 100px;
+      background: grey;
+      position: relative;
+      bottom: 140px;
+      display: flex;
+      align-items: flex-start;
+      margin: 15px 15px;
+      left: 120px;
+
+   /*   border-radius: 10px 10px 0 0;*/
+      background-color: #fff;
+      color: #000;
+      box-shadow: 0 2px 6px rgb(0 0 0 / 10%);
+      transform: translateZ(0);
+
+     }
+   </style>
+ </head>
+ <body>
+   <div id="parents">
+     <div class="red" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=708&q=80);">
+        Red
+        </div>
+
+     <div class="blue">Blue</div>
+   </div>
+ </body>
+ </html>
